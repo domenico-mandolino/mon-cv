@@ -1,0 +1,77 @@
+*{
+    font-family: Arial, sans-serif;
+    text-decoration:none;
+}
+body{
+    
+}
+
+header {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    background-color: #56B87D;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+}
+#maPhoto{
+    height: 200px;
+    width: 200px;
+    border-radius: 150px ;
+}
+
+#nom{
+    font-size: 50px;
+}
+
+main{
+    display: flex;
+    gap: 50px;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30dvw;
+    gap: 20px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+     
+}
+.compétences{
+    display:flex;
+    justify-content: space-around
+    
+}
+.mimo{
+     line-height: 250%;
+}
+aside{
+    background-color: #E2F2E3;
+    padding: 2%;
+}
+.motivation{
+    line-height: 280%;
+}
+
+.compétence{
+    line-height: 200%;
+}
+.coordonnées{
+    line-height: 210%;
+}
+.loisirs{
+    line-height: 210%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
